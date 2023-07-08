@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h3>Formulario de Registro</h3>
+    <div>
+        <label>Nombre: * </label>
+        <input type="text" name="Nombre" placeholder="Nombre...">
+    </div>
+    <div>
+        <label>Apellido: * </label>
+        <input type="text" name="Apellido" placeholder="Apellido...">
+    </div>
+    <div>
+        <label>Email: * </label>
+        <input type="text" name="Email" placeholder="Email...">
+    </div>
+    <div>
+        <label>Contraseña: * </label>
+        <input type="text" name="Contraseña" placeholder="Contraseña...">
+    </div>
+    <div>
+        <label>Confirmar contraseña: * </label>
+        <input type="text" name="Confirmar contraseña" placeholder="Confirmar contraseña...">
+    </div>
+    <div>
+        <label>Fecha de nacimiento: * </label>
+        <input type="date" name="dob">
+    </div>
+    <p>Género</p>
+    <div>
+        <input type="radio" id="Masculino" name="género" value="Masculino">
+        <label for="Masculino"> Masculino</label>
+    </div>
+    <div>
+        <input type="radio" id="Femenino" name="género" value="Femenino">
+        <label for="Femenino">Femenino</label>
+    </div>
+    <div>
+        <input type="radio" id="No-binarie" name="género" value="No-binarie">
+        <label for="No-binarie">No-binarie</label>
+    </div>
+    <div>
+        <input type="radio" id="Prefiero no decirlo" name="género" value="Prefiero no decirlo">
+        <label for="Prefiero no decirlo">Prefiero no decirlo</label>
+    </div>
+    <p>Un poco de mi historia...</p>
+    <div>
+        <textarea name="coment" cols="20" rows="3"></textarea>
+    </div>
+    <p>Lenguaje Favorito</p>
+    <select name="Lenguaje Favorito">
+        <option>JavaScript</option>
+        <option>Python</option>
+        <option>Ruby</option>
+    </select>
+    <div>
+        <input type="checkbox" name="Si, acepto recibir información por correo" id="accept" <label for="accept">Si,
+        acepto recibir información por correo</label>
+    </div>
+    <input type="submit" value="Crear Cuenta">
+
+    <p>* Campos obligatorios</p>
+</body>
+
+</html>
